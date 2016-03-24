@@ -16,11 +16,12 @@ public class Rectangle {
 	 *            rectangle length
 	 */
 	public Rectangle(double width, double length) {
-
+		this.width = width;
+		this.length = length;
 	}
 
 	public double getArea() {
-		return .5 * (width * length);
+		return (width * length);
 
 	}
 
