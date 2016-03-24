@@ -48,6 +48,8 @@ public class AreaRectangleJM {
       final String prompt = "Please enter the rectangle's length.";
       return getPositiveDouble(prompt);
    }
+   
+   
 
    /**
     * This is the application main. Calculates the area of a rectangle when the
